@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "./db",
+        "./utils",
+        "./models",
+        "./model",
+        "./services/user_auth_service"
+    ]
+}
