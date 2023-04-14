@@ -10,7 +10,7 @@ function ProfileNav(props) {
         <h4
           style={{
             fontSize: "xx-large",
-            alignSelf: "center",
+            alignSelf: "flex-start",
             borderRight: "1px solid rgb(141, 141, 141)",
             paddingRight: "5px",
           }}
@@ -25,10 +25,12 @@ function ProfileNav(props) {
           style={{
             width: "50%",
             height: "25px",
-            borderColor: "black",
+            borderColor: "gray",
+            borderWidth:'1px',
             borderRadius: "5px",
             alignSelf: "center",
             fontSize:'large'
+            ,padding:'1px'
         
           }}
           type="text"

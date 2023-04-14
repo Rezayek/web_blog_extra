@@ -28,6 +28,7 @@
     height: auto;
     align-items: center;
     justify-content: center;
+    gap: 7px;
  
 }
 .profile-pic-name
