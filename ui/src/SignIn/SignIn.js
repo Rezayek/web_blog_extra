@@ -35,7 +35,7 @@ function SignIn(props) {
           <label className="label">Password :</label>
           <input type="password" className="input" />
 
-          <input type="submit" className="submit-btn" value="Submit" />
+          <input type="submit" className="submit-btn" value="Connect" />
           <p style={{ alignSelf: "center" }}>
             {" "}
             You don't have an account ? <Link to='/signup' style={{color:'black'}}><b>register now</b></Link>{" "}
