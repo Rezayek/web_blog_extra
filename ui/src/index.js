@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import Main from "./Main/main"
 import { BrowserRouter } from "react-router-dom";
+import ProfileNav from "./Profile/ProfileNav/ProfileNav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Main/>
+      <ProfileNav/>
     </BrowserRouter>
   </React.StrictMode>
 );

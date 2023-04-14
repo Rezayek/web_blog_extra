@@ -1,0 +1,43 @@
+.profile-nav
+{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    border-bottom: 2px solid rgb(170, 170, 170);
+   width: 100%;
+   gap: 20px;
+   justify-content: center;
+   position: sticky;
+   top: 0px;
+   background-color: white;
+   align-items: center;
+
+}
+.left-logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    align-self: center;
+}
+.search
+{
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.profile-pic-name
+{
+    display: flex;
+    height: 80%;
+    width: 20%;
+    align-self: center;
+    gap: 10px;
+
+    padding-left: 5px;
+   
+}
