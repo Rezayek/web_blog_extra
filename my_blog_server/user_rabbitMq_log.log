@@ -188,3 +188,11 @@
 2023-04-14 00:53:19,650 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
 2023-04-14 00:53:21,897 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
 2023-04-14 00:53:21,905 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-14 00:59:41,474 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-14 00:59:41,489 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-14 00:59:43,733 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-14 00:59:43,748 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-14 00:59:46,097 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-14 00:59:46,113 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-14 00:59:48,329 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-14 00:59:48,344 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
