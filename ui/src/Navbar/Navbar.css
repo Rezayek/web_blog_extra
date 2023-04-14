@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  background-color: white;
+  height: 10%;
+  border-bottom: 2px solid rgb(125, 125, 125);
+  justify-content: space-between;
+  z-index: 3;
+}
+.links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  align-self: center;
+  width: 33%;
+  height: 78%;
+  color: black;
+  margin: 1%;
+  justify-content: flex-end;
+}
+
+.link {
+  text-decoration: none;
+  height: 40%;
+  width: 14%;
+  text-align: center;
+  color: rgb(16, 88, 175);
+  border-bottom: 1px solid rgb(16, 88, 175)};
+
+.link:hover {
+  transform: scale(1.08);
+}
+.nav-img {
+  height: 100%;
+}
+.log-n {
+  display: flex;
+  height: 100%;
+  align-self: center;
+  align-items: center;
+}
