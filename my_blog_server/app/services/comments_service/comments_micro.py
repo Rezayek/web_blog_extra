@@ -13,7 +13,7 @@ from app.app_models.db_models import User
 from app.services.comments_service.comments_schemas import Comment, CommentCreate, ReactCreate, ReactOut, CommentUpdate
 from fastapi import status, Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .comments_db.comments_provider import CommentsDbProvider
+from app.services.comments_service.comments_db.comments_provider import CommentsDbProvider
 from app.config_env import settings
 comments_db_provider = CommentsDbProvider()
 

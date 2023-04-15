@@ -24,4 +24,5 @@ class FirebaseConnector:
             raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail=f"Service is down for now please wait")
         
 firebase_db = FirebaseConnector().firebase_connector()
-        
+
+    

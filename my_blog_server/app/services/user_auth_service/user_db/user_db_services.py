@@ -6,7 +6,7 @@ from sqlalchemy.orm import Session
 from fastapi import status, HTTPException
 from app.services.user_auth_service import oauth2 
 from app.firebase_cloud_store.firebase_manager import FirebaseManager
-from app.producers.notifier import Notifier
+from app.producers_rabbit.notifier import Notifier
 class UserDbServices(UserDb):
     
     def __init__(self):
@@ -58,10 +58,13 @@ class UserDbServices(UserDb):
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN, detail=f"Already Verified")
 
-        db.query(User).filter(User.id == user.id).update({User.is_verified: True})
+        db.query(User).filter(User.id == user.id).update({User.is_verified: True}) 
         self.firebase_store_user.add_new_user(user = user)
         self.notifier.new_user_notifier(body= user)
+        self.notifier.new_user_notifier_subDB(body = user)
         db.commit()
+
+        
         
         return user.user_name
         
@@ -72,7 +75,9 @@ class UserDbServices(UserDb):
             db.add(new_user)
             db.commit()
             db.refresh(new_user)
-        except:
+            
+        except Exception as e:
+            print(e)
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=f"User Already exists")
         
         return new_user

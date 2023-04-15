@@ -18,6 +18,7 @@ class Settings(BaseSettings):
     log_fire_comment: str
     log_post_producer: str
     log_user_producer: str
+    log_user_listener: str
     cred_file: str
     api_gateway_service_host: str
     api_gateway_service_port: int
@@ -30,9 +31,15 @@ class Settings(BaseSettings):
     comments_service_path: str
     comments_service_host: str
     comments_service_port: int
-    producer_host: str
-    producer_queue: str
-    producer_routing_key: str
+    producer_host_post: str
+    producer_queue_post: str
+    producer_routing_key_post: str
+    producer_host_user: str
+    producer_queue_user: str
+    producer_routing_key_user: str
+    producer_host_user_sub: str
+    producer_queue_user_sub: str
+    producer_routing_key_user_sub: str
 
 
     

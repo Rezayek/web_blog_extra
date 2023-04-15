@@ -73,11 +73,16 @@ async def demand_verification(user_cred: OAuth2PasswordRequestForm = Depends(), 
 templates = Jinja2Templates(directory="app/templates")
 
 @auth_service.get('/auth/verification/', response_class=HTMLResponse)
-def email_verification(request: Request, user: User = Depends(oauth2.get_unverified_user), db: Session = Depends(get_db), timeout: int = 60):
+def email_verification(request: Request, user: User = Depends(oauth2.get_unverified_user), db: Session = Depends(get_db), timeout: int = 45):
+    
     
     user_name = user_db_provider.verify_db(user = user, db = db)
+    if user_name:
     
-    return templates.TemplateResponse("verification.html", {"request": request, "user_name": user_name})
+        return templates.TemplateResponse("verification.html", {"request": request, "user_name": user_name})
+    
+    return {"message": "verification link expired"}
+   
 
 @auth_service.post("/auth/create_user", status_code=status.HTTP_201_CREATED, response_model= auth_schemas.UserOut)
 async def create_suser(
@@ -85,7 +90,9 @@ async def create_suser(
     user_name: str = Form(...),
     password: str = Form(...),
     profile_img: UploadFile = File(None),
-    db: Session = Depends(get_db)):
+    db: Session = Depends(get_db),
+    timeout: int = 60
+    ):
     
             
     user = auth_schemas.UserCreate(email= user_email, user_name= user_name, password= password, profile_img= profile_img.filename)

@@ -30,9 +30,6 @@ class FirebaseManager:
         
         try:
             
-            if(self.collection_user.document(f'{user.id}').get()[0] is not None):
-                raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=f"Invalid Credentials")
-            
             user_doc =  self.collection_user.document(f'{user.id}')
             user_dict = {
                 "id": user.id,

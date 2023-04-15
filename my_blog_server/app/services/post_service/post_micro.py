@@ -13,7 +13,7 @@ from app.db_holder_dic.database import get_db
 from sqlalchemy.orm import Session
 from fastapi import Form, UploadFile, status, Depends, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .post_db.post_db_provider import PostDbProvider
+from app.services.post_service.post_db.post_db_provider import PostDbProvider
 from fastapi.responses import FileResponse
 from click import File
 import shutil
