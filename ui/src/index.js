@@ -4,12 +4,15 @@ import "./index.css";
 import Main from "./Main/main"
 import { BrowserRouter } from "react-router-dom";
 import ProfileNav from "./Profile/ProfileNav/ProfileNav";
-
+import Post  from './PostComponent/Post';
+import img from './logo192.png'
+import Item from './CommentItemComponent/Item'
+import logo from './logo192.png'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <ProfileNav/>
+<Post/>
     </BrowserRouter>
   </React.StrictMode>
 );

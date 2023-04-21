@@ -4,7 +4,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
 import Item from "../CommentItemComponent/Item";
 function Comment(props) {
-  let text=''
   let testData = [
     { Usrid: 0, id: 0, usrName: "Khalil ben romdhane", content: "Nice blog !" },
     { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
@@ -15,6 +14,7 @@ function Comment(props) {
     { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
   ];
   const [data, setData] = useState(testData);
+  const [text,setText]=useState('')
   return (
     <div className="comment-section">
       <div className="comment-content">
@@ -49,13 +49,14 @@ function Comment(props) {
             className="comment-input"
             placeholder="Comment..."
             onChange={(e)=>{
-              text=e.target.value
+              setText(e.target.value)
             }}
           />
           <BsFillSendFill className="send" onClick={()=>{
 
            console.log(text)
             setData([...data,{content:text,Usrid: 0, id: 0, usrName: "Khalil ben romdhane"}])
+   
 
           }} />
         </div>
