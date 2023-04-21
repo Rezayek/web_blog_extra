@@ -6,10 +6,14 @@ import { ImArrowDown } from "react-icons/im";
 import { FaCommentDots } from "react-icons/fa";
 import {Link} from 'react-router-dom'
 import Replay from '../Replay/Replay'
+import Replies from '../ReplayItem/ReplayItem'
+import ReplayItem from "../ReplayItem/ReplayItem";
 
 
 function Item(props) {
-  const [replay,setReplay]=useState(false)
+  const [reply,setReply]=useState(false)
+  const [replies,setReplies]=useState(false)
+  const [data,setData]=useState([{id:0,usrName:"Khalil ben romdhane",content:'hahahah'},{id:1,usrName:'Rezayek hadj souguir',content:'Loool'},{id:2,usrName:"Wael Antar",content:'Grrrrrrr'}])
   return (
     <div className="comment-item">
       <div className="img-usr">
@@ -24,15 +28,24 @@ function Item(props) {
       <ImArrowUp fontSize='22px'/>
       <ImArrowDown fontSize='22px'/>
       <FaCommentDots style={{marginLeft:'10px'}} fontSize='22px'/><Link onClick={()=>{
-        setReplay((prev)=>{
-          return !prev
-        })
+        setReply((prev)=>{return !prev})
+        setReplies(data.length)
       }}>Replay</Link>
       <Link style={{marginLeft:'50%'}} onClick={()=>{
-        setReplay(false)
-      }}>replies</Link>
+        setReply(false)
+        setReplies((prev)=>{return !prev})
+      }}>replies({data.length})</Link>
       </div>
-      { replay && <Replay usrImg={logo}/>}
+  
+      { reply && <Replay reply={setReply} usrImg={logo} setData={setData}/>}
+      <div className="replies-section">
+      {replies && data.map((item)=>{return <ReplayItem key={item.id} 
+      usrImg={logo} 
+      usrName={item.usrName} 
+      content={item.content}/> })}
+        
+      </div>
+     
       
     </div>
   );

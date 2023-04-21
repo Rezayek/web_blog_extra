@@ -23,8 +23,8 @@ function Post(props) {
           </div>
         </div>
         <div className="content">
-          {props.postText ? (
-            <div className="post-text">{props.postText}</div>
+          {props.content ? (
+            <div className="post-text">{props.content}</div>
           ) : (
             ""
           )}

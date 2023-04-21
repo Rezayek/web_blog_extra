@@ -8,6 +8,8 @@
     padding: 2%;
    height: max-content;
    border: 1px solid black;
+   gap: 10px;
+
 
 
 
@@ -55,4 +57,17 @@
   align-items: center;
   gap:5px;
   
+}
+.replies-section
+{ display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+    overflow-y: scroll;
+    justify-items:flex-start ;
+    align-items: flex-start;
+    width: 100%;
+   
+
+
 }

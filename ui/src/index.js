@@ -12,7 +12,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-<Post/>
+<Post usrName='Khalil ben romdhane' usrImg={logo} delay='1h' content='eidkom mabruk <3'/>
     </BrowserRouter>
   </React.StrictMode>
 );

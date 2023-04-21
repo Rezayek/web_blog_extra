@@ -3,14 +3,12 @@ import "./Comment.css";
 import { AiOutlineClose } from "react-icons/ai";
 import { BsFillSendFill } from "react-icons/bs";
 import Item from "../CommentItemComponent/Item";
+import logo from "../logo192.png"
 function Comment(props) {
   let testData = [
     { Usrid: 0, id: 0, usrName: "Khalil ben romdhane", content: "Nice blog !" },
     { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
-    {Usrid: 2,id: 2,usrName: "Franck ribery",content:"Nice blog hahahahahahahahahahahahah!"},
-    { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
-    { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
-    { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
+    { Usrid: 2, id: 2,usrName: "Franck ribery",content:"Nice blog hahahahahahahahahahahahah!"},
     { Usrid: 1, id: 1, usrName: "Rzouga", content: "Hate that :(" },
   ];
   const [data, setData] = useState(testData);
@@ -31,6 +29,7 @@ function Comment(props) {
           {data.map((item) => {
             return (
               <Item
+                usrImg={logo}
                 delay="30 min."
                 usrName={item.usrName}
                 id={item.id}
