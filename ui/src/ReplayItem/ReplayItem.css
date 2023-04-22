@@ -1,8 +1,6 @@
 .replay-item
 {
     display: flex;
-    flex-direction: column;
-    background-color:rgb(224, 223, 223);
     
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -17,13 +15,16 @@
 }
 .replay-header
 { display: flex;
+    flex-direction: column;
     align-self: flex-start;
     align-items: flex-start;
-    gap:5px;
-    border-bottom:1px solid rgb(174, 174, 174) ; 
     margin: 0;
     width: 100%;
     padding: 5px;
+    background-color: rgb(203, 203, 203);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    border-bottom-left-radius:15px ;
 
 
 

@@ -27,14 +27,14 @@ function Item(props) {
       <div className="react-section">
       <ImArrowUp fontSize='22px'/>
       <ImArrowDown fontSize='22px'/>
-      <FaCommentDots style={{marginLeft:'10px'}} fontSize='22px'/><Link onClick={()=>{
+      <FaCommentDots style={{marginLeft:'10px'}} fontSize='22px'/><Link style={{textDecoration:'none',color:'black'}} onClick={()=>{
         setReply((prev)=>{return !prev})
        
-      }}>Replay</Link>
-      <Link style={{marginLeft:'50%'}} onClick={()=>{
+      }}><b>Replay</b></Link>
+      <Link style={{marginLeft:'50%',textDecoration:'none',color:'black'}} onClick={()=>{
        
         setReplies((prev)=>{return !prev})
-      }}>replies({data.length})</Link>
+      }}><b>Replies({data.length})</b></Link>
       </div>
   
       { reply && <Replay reply={setReply} usrImg={logo} setData={setData}/>}
