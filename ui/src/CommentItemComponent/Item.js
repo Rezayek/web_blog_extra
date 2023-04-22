@@ -29,20 +29,20 @@ function Item(props) {
       <ImArrowDown fontSize='22px'/>
       <FaCommentDots style={{marginLeft:'10px'}} fontSize='22px'/><Link onClick={()=>{
         setReply((prev)=>{return !prev})
-        setReplies(data.length)
+       
       }}>Replay</Link>
       <Link style={{marginLeft:'50%'}} onClick={()=>{
-        setReply(false)
+       
         setReplies((prev)=>{return !prev})
       }}>replies({data.length})</Link>
       </div>
   
       { reply && <Replay reply={setReply} usrImg={logo} setData={setData}/>}
-      <div className="replies-section">
-      {replies && data.map((item)=>{return <ReplayItem key={item.id} 
+      <div className="replies-section" style={{padding: replies ? '10px':0,borderTop : replies ? '1px solid  black':'none' }}>
+      {replies ? data.map((item)=>{return <ReplayItem key={item.id} 
       usrImg={logo} 
       usrName={item.usrName} 
-      content={item.content}/> })}
+      content={item.content}/> } ): false}
         
       </div>
      

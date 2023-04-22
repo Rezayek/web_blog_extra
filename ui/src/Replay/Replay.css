@@ -1,23 +1,24 @@
 .replay
 {
     display: flex;
-    width: 70%;
+    width: 90%;
     padding: 10px;
     align-items: center;
     background-color: rgb(179, 179, 179);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    gap: 10px;
+
     justify-items: center;
-    align-self: flex-start;
-    align-self: flex-start;
+    align-self: center;
+    justify-content: space-between;
+    
 }
 .replay-section
 {
     border-radius: 10px;
     resize: none;
-    width: 80%;
+    width: 86%;
     text-align: left;
     padding: 5px;
   

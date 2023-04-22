@@ -13,7 +13,16 @@ function Replay(props) {
 
             }}></textarea>
             <BsFillSendFill fontSize='25px' onClick={()=>{
-                props.setData((prev)=>[...prev,{id:prev.length+1,content:reply}])
+                if(!reply.length==0)
+                {document.querySelector('.replay-section').style.borderColor='black'
+                    props.setData((prev)=>[...prev,{id:prev.length+1,content:reply}])
+
+                }
+                else
+                {
+                    document.querySelector('.replay-section').style.borderColor='red'
+                }
+                
             }}/>
         </div>
     );

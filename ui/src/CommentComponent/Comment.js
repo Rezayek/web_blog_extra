@@ -54,7 +54,16 @@ function Comment(props) {
           <BsFillSendFill className="send" onClick={()=>{
 
            console.log(text)
+           if(!text.length==0)
+
+           {document.querySelector('.comment-input').style.borderColor='black' 
             setData([...data,{content:text,Usrid: 0, id: 0, usrName: "Khalil ben romdhane"}])
+             
+             
+           }
+           else{
+            document.querySelector('.comment-input').style.borderColor='red'
+           }
    
 
           }} />
