@@ -24,7 +24,7 @@ function Item(props) {
         </div>
       </div>
       <div className="item-content">{props.content}</div>
-      <div className="react-section">
+      <div className="react-section" style={{borderBottom: reply?  '2px solid rgba(43, 43, 43, 0.385)':'none'}}>
       <ImArrowUp fontSize='22px'/>
       <ImArrowDown fontSize='22px'/>
       <FaCommentDots style={{marginLeft:'10px'}} fontSize='22px'/><Link style={{textDecoration:'none',color:'black'}} onClick={()=>{
@@ -38,7 +38,7 @@ function Item(props) {
       </div>
   
       { reply && <Replay reply={setReply} usrImg={logo} setData={setData}/>}
-      <div className="replies-section" style={{padding: replies ? '10px':0,borderTop : replies ? '1px solid  black':'none' }}>
+      <div className="replies-section" style={{paddingTop: replies ? '10px':0,    borderTop:replies ?' 2px solid rgba(43, 43, 43, 0.385)' :'none' }}>
       {replies ? data.map((item)=>{return <ReplayItem key={item.id} 
       usrImg={logo} 
       usrName={item.usrName} 
