@@ -20,10 +20,10 @@ class PostDbServices(PostDb):
     def get_all_posts_db(self, db: Session, limit:int, skip:int = 0, search:Optional[str] = ""):
         # results = db.query(Post).group_by(Post.id).filter(or_(Post.title.contains(search), cast(Post.tags, String).like(f"%{search}%"))).limit(limit).offset(skip).all()
         results = db.query(Post).group_by(Post.id).filter(Post.title.contains(search), cast(Post.tags, String).like(f"%{search}%")).limit(limit).offset(skip).all()
+        if search != "":
+            tag_search = self.post_db_tag_provider.get_all_posts_db(tag = search, limit= limit, skip = skip)
+            results.append(tag_search)
         
-        tag_search = self.post_db_tag_provider.get_all_posts_db(tag = search, limit= limit, skip = skip)
-        
-        results.append(tag_search)
         
         return results
     
@@ -70,7 +70,10 @@ class PostDbServices(PostDb):
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=f"Not Authorized")
         
         post_query.delete(synchronize_session=False)
-        self.post_db_tag_provider.delete_post_db(id = id, current_user= current_user, tags = post.tags )
+        
+        if post.tags != []:
+            self.post_db_tag_provider.delete_post_db(id = id, current_user= current_user, tags = post.tags )
+            
         db.commit()
         
         return Response(status_code=status.HTTP_204_NO_CONTENT)

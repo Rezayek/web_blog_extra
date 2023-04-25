@@ -121,23 +121,30 @@ def unauthorized_client_post(client_post):
     
     return client_post
 
+
 @pytest.fixture
-def authorized_client_comment(client_comment, token):
+def token_comment():
+    return create_access_token({"user_id": 77})
+
+@pytest.fixture
+def authorized_client_comment(client_comment, token_comment):
     client_comment.headers = {
         **client_comment.headers,
-        "Authorization": f"Bearer {token}"
+        "Authorization": f"Bearer {token_comment}"
     }
     
     return client_comment
 
 @pytest.fixture
-def unauthorized_client_comment(client_comment, token):
+def unauthorized_client_comment(client_comment):
     client_comment.headers = {
         **client_comment.headers,
         "Authorization": f"Bearer ffffffffffffffffffffffffff"
     }
     
     return client_comment
+
+
 
 @pytest.fixture
 def test_post(test_user, session):
@@ -147,7 +154,7 @@ def test_post(test_user, session):
                 "title":"post 1 ",
                 "content": "content content content ",
                 "owner_id": test_user['id'],
-                "tags": ["action", "horror"],
+                "tags": [],
                 "group_id": "none",
                 "attached_img": "B-removebg-preview.png",
                 
@@ -157,7 +164,7 @@ def test_post(test_user, session):
                 "title":"post 2 ",
                 "content": "content content content content content ",
                 "owner_id": test_user['id'],
-                "tags": ["youtube", "news"],
+                "tags": [],
                 "group_id": "none",
                 "attached_img": "B-removebg-preview.png",
             }
@@ -175,9 +182,14 @@ def test_post(test_user, session):
     
     return posts
 
-@pytest.fixture
-def test_add_comments(test_post, test_user):
-    pass
+# @pytest.fixture
+# def test_add_comments(authorized_client_comment):
+    
+#     res = authorized_client_comment.post(f"/comments/{57}", data= {"replie_to_id": -1,"content": "xD"})
+#     assert res.status_code == 201
+#     res_json = res.json()
+#     assert res_json["post_id"] == 57
+#     return 57
 
 @pytest.fixture
 def test_image():

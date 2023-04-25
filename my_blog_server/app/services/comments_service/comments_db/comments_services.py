@@ -22,8 +22,6 @@ class CommentsDbServices(CommentsDb):
         pass
     
     def get_all_comments_db(self, id: int, reply_to:int, limit: int, skip: int) -> List[comments_schemas.Comment]:
-        
-        
         try:
             comments_ref: CollectionReference = self.posts_collection.document(str(id)).collection(u'comments')
             query: Query = comments_ref.where(field_path='replie_to_id', op_string='==', value=reply_to).limit(limit).offset(skip)

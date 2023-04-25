@@ -395,3 +395,59 @@
 2023-04-15 16:58:24,361 | DEBUG | sending new post to vote and recomendation micro-services with id: 56
 2023-04-15 16:59:38,390 | DEBUG | Adding post with id: 57 to post collection in firebase with document id: 57
 2023-04-15 16:59:38,401 | DEBUG | sending new post to vote and recomendation micro-services with id: 57
+2023-04-25 18:57:55,453 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 18:57:55,545 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 18:57:58,098 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 18:57:58,105 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 18:58:00,483 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 18:58:00,506 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 18:58:02,816 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 18:58:02,824 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:00:57,898 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:00:57,904 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:01:00,715 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:01:00,721 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:01:03,230 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:01:03,237 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:01:05,569 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:01:05,578 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:03:36,044 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:03:36,052 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:03:38,357 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:03:38,413 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:03:40,732 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:03:40,741 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:03:43,072 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:03:43,082 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:07:59,900 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:07:59,907 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:08:02,463 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:08:02,474 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:08:04,825 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:08:04,832 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 19:08:07,361 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 19:08:07,378 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 20:40:29,707 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 20:40:29,715 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 20:40:32,079 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 20:40:32,086 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 20:40:36,232 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 20:40:36,240 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 20:40:45,598 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 20:40:45,606 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:00:22,321 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:00:22,339 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:00:24,833 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:00:24,843 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:00:27,167 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:00:27,174 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:00:29,582 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:00:29,592 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:01:41,135 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:01:41,143 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:01:43,422 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:01:43,429 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:01:45,807 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:01:45,856 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-04-25 21:01:48,278 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-04-25 21:01:48,285 | DEBUG | sending new post to vote and recomendation micro-services with id: 1

@@ -102,7 +102,7 @@ def test_update_post(authorized_client_post, test_user, test_post, test_image):
         "title": "update",
         "content": "content update",
         "id": test_post[0].id,
-        "tags": "news,anime"
+        "tags": ""
     }
     
     res = authorized_client_post.put(f"/posts/{test_post[0].id}", data = data, files = test_image)

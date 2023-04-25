@@ -32,7 +32,8 @@ comments_service.add_middleware(
 
 
 @comments_service.post("/comments/react", status_code=status.HTTP_201_CREATED, response_model=ReactOut)
-def create_comment(react_create : ReactCreate, current_user: User =  Depends(get_current_user), timeout: int = 60):
+def react_comment(react_create : ReactCreate, current_user: User =  Depends(get_current_user), timeout: int = 60):
+    print("here")
     return comments_db_provider.add_react_db(react_create = react_create, current_user = current_user)
 
 @comments_service.get("/comments/", response_model = List[Comment])
@@ -41,10 +42,10 @@ def get_comments(id: int, reply_to:int = -1, current_user: User =  Depends(get_c
 
 
 @comments_service.post("/comments/{id}", status_code=status.HTTP_201_CREATED, response_model=Comment)
-def create_comment(id: int, comment_create : CommentCreate, current_user: User =  Depends(get_current_user), timeout: int = 60):
+def create_comment(id: int, comment_create : CommentCreate, current_user: User =  Depends(get_current_user), timeout: int = 120):
     return comments_db_provider.create_comments_db(id = id, comment_create = comment_create, current_user = current_user)
 
-@comments_service.put("/comments/{id}", response_model=Comment)
+@comments_service.put("/comments/{id}", status_code=status.HTTP_200_OK, response_model=Comment)
 def update_comment(id: int, comment_update: CommentUpdate, current_user: User =  Depends(get_current_user), timeout: int = 60):
     return comments_db_provider.update_comments_db(id = id, comment_update= comment_update, current_user= current_user )
 

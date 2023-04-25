@@ -88,7 +88,7 @@ def update_post(
     current_user: User =  Depends(oauth2.get_current_user)
     ):
     
-    post = post_schemas.PostBase(title= title, content= content, attached_img = post_img.filename, tags = tags.split(","))
+    post = post_schemas.PostBase(title= title, content= content, attached_img = post_img.filename, tags = tags.split(",") if tags is not None else [])
     
     result = post_db_service.update_post_db(id = id, current_user= current_user, post = post, db= db)
     
