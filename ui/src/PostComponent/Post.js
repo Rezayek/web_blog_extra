@@ -11,6 +11,7 @@ function Post(props) {
   const [Color1, setColor1] = useState("black");
   const [Color2, setColor2] = useState("black");
   const [comment, setComment] = useState(false);
+  const[up,setUp]=useState(0)
   return (
     <div className="post">
       <div className="post-content">
@@ -39,17 +40,33 @@ function Post(props) {
           <ImArrowUp
             style={{ fontSize: "22px", color: Color1 }}
             onClick={() => {
-              if (liked1) {
-                setColor1("black");
-                console.log(Color1);
-                liked1 = false;
-              } else {
-                setColor1("gray");
-                setColor2("black");
-                liked1 = true;
+              fetch("http://localhost:8000/api/up", {
+                method: "POST",
+                headers: {
+                  'Content-Type': 'application/json'
+                },
+                body:JSON.stringify({id:props.id  }) 
               }
+              
+              )
+              .then((res)=>{
+                       res.json()
+                       .then((data) => {
+                        setUp(data.length)
+                        if (liked1) {
+                          setColor1("black");
+                      
+                          liked1 = false;
+                        } else {
+                          setColor1("gray");
+                          setColor2("black");
+                          liked1 = true;
+                        }
+                      })
+              });
             }}
           />
+          <p><b>70</b></p>
           <ImArrowDown
             style={{ fontSize: "22px", color: Color2 }}
             onClick={() => {
@@ -63,13 +80,16 @@ function Post(props) {
               }
             }}
           />
+              <p><b>0</b></p>
           <FaCommentDots
             className="comment"
             style={{ fontSize: "22px" }}
             onClick={() => {
               setComment(true);
             }}
+            
           />
+              <p><b>10</b></p>
         </div>
         {comment && <Comment comment={setComment} />}
       </div>
