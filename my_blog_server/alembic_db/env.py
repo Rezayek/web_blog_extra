@@ -25,6 +25,11 @@ target_metadata = Base.metadata
 # can be acquired:
 # my_important_option = config.get_main_option("my_important_option")
 # ... etc.
+# Define a list of database names to create
+DATABASE_NAMES = ['blogdb_new', 'blogdb_action']
+
+
+
 
 
 def run_migrations_offline() -> None:
@@ -39,6 +44,7 @@ def run_migrations_offline() -> None:
     script output.
 
     """
+    
     url = config.get_main_option("sqlalchemy.url")
     context.configure(
         url=url,
@@ -63,6 +69,7 @@ def run_migrations_online() -> None:
         prefix="sqlalchemy.",
         poolclass=pool.NullPool,
     )
+    
 
     with connectable.connect() as connection:
         context.configure(

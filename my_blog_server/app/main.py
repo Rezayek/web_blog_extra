@@ -48,7 +48,7 @@ async def api_gateway(request: Request, route: str):
             url = auth_url + request.url.path 
         logger.debug(f"Dispatching request to auth microservice: {request.method} {url}")
         async with AsyncClient() as client:
-            response = await client.request(request.method, url, headers=request.headers, data=request.stream())
+            response = await client.request(request.method, url, headers=request.headers, data=request.stream(), timeout=10)
             
     elif route.startswith('posts'):
         if request.url.query != "":
@@ -57,7 +57,7 @@ async def api_gateway(request: Request, route: str):
             url = posts_url + request.url.path 
         logger.debug(f"Dispatching request to posts microservice: {request.method} {url}")
         async with AsyncClient() as client:
-            response = await client.request(request.method, url, headers=request.headers, data=request.stream())
+            response = await client.request(request.method, url, headers=request.headers, data=request.stream(), timeout=10)
             
     elif route.startswith('comments'):
         if request.url.query != "":
@@ -66,7 +66,7 @@ async def api_gateway(request: Request, route: str):
             url = comments_url + request.url.path 
         logger.debug(f"Dispatching request to comments microservice: {request.method} {url}")
         async with AsyncClient() as client:
-            response = await client.request(request.method, url, headers=request.headers, data=request.stream())
+            response = await client.request(request.method, url, headers=request.headers, data=request.stream(), timeout=10)
         
     
     

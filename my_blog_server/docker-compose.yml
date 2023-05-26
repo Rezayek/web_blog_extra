@@ -1,42 +1,64 @@
-version : "3"
-services: 
-    api:
-        build: .
-        image: my_blog_server-api:v1.0
-        depends_on:
-            - postgres
-        ports:
-          - 8000:8000
-        volumes:
-          - ./:/usr/src/app:rw
-        command: sh -c "alembic upgrade head & \
-                        python ./app/main.py & \
-                        python ./app/services/user_auth_service/auth_micro.py & \
-                        python ./app/services/post_service/post_micro.py & \
-                        python ./app/services/comments_service/comments_micro.py & \
-                        wait"
-        env_file:
-          - .env
-    postgres:
-      image: postgres
-      ports:
-        - 5432:5432
-      restart: always
-      environment:
-        - POSTGRES_USER=postgres 
-        - POSTGRES_PASSWORD=0000
-        - POSTGRES_DB=blogdb
+version: "3"
+services:
+  api:
+    build: .
+    image: my_blog_server-api:v2.0
+    depends_on:
+      - postgres
+      - rabbitmq
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/usr/src/app:rw
+    command: sh -c "alembic upgrade head & \ python ./app/main.py & \ python ./app/services/user_auth_service/auth_micro.py & \ python ./app/services/post_service/post_micro.py & \ python ./app/services/comments_service/comments_micro.py & \ python ./app/services/post_service/post_db/post_tag_db/post_tag_rabbit/posta_tag_listener.py & \ wait"
+    env_file:
+      - .env
+    networks:
+        - rabbitmq_go_net
 
-      volumes:
-        - postgres-db:/var/lib/postgresql/data
+  postgres:
+    image: postgres
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=0000
+      - POSTGRES_DB=blogdb
 
-    adminer:
-      image: adminer
-      restart: always
-      depends_on:
-        - postgres
-      ports:
-        - 8080:8080
+    volumes:
+      - postgres-db:/var/lib/postgresql/data
+      
+    networks:
+        - rabbitmq_go_net
+
+  adminer:
+    image: adminer
+    restart: always
+    depends_on:
+      - postgres
+    ports:
+      - 8080:8080
+    networks:
+        - rabbitmq_go_net
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+        - ~/.docker-conf/rabbitmq/data/:/var/lib/rabbitmq/
+        - ~/.docker-conf/rabbitmq/log/:/var/log/rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+    networks:
+        - rabbitmq_go_net
+networks:
+  rabbitmq_go_net:
+    driver: bridge
+
 
 volumes:
-    postgres-db:
+  postgres-db:

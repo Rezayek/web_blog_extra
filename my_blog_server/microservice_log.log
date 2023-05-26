@@ -1240,3 +1240,755 @@ comment_id
 2023-04-25 21:01:45,856 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
 2023-04-25 21:01:48,278 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
 2023-04-25 21:01:48,285 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 12:11:03,482 | DEBUG | route: auth/login
+2023-05-04 12:11:03,482 | DEBUG | route: auth/login
+2023-05-04 12:11:03,484 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:11:03,484 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:13:32,967 | DEBUG | route: posts
+2023-05-04 12:13:32,967 | DEBUG | route: posts
+2023-05-04 12:13:32,967 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts
+2023-05-04 12:13:32,967 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts
+2023-05-04 12:13:33,048 | DEBUG | route: favicon.ico
+2023-05-04 12:13:33,048 | DEBUG | route: favicon.ico
+2023-05-04 12:16:14,738 | DEBUG | route: auth/login
+2023-05-04 12:16:14,738 | DEBUG | route: auth/login
+2023-05-04 12:16:14,739 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:16:14,739 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:17:56,875 | DEBUG | route: auth/login
+2023-05-04 12:17:56,875 | DEBUG | route: auth/login
+2023-05-04 12:17:56,876 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:17:56,876 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:18:39,381 | DEBUG | route: auth/login
+2023-05-04 12:18:39,381 | DEBUG | route: auth/login
+2023-05-04 12:18:39,382 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:18:39,382 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:54:40,056 | DEBUG | route: auth/login
+2023-05-04 12:54:40,056 | DEBUG | route: auth/login
+2023-05-04 12:54:40,057 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:54:40,057 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 12:55:02,690 | DEBUG | route: auth/login
+2023-05-04 12:55:02,690 | DEBUG | route: auth/login
+2023-05-04 12:55:02,690 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8001/auth/login
+2023-05-04 12:55:02,690 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8001/auth/login
+2023-05-04 12:55:02,804 | DEBUG | route: favicon.ico
+2023-05-04 12:55:02,804 | DEBUG | route: favicon.ico
+2023-05-04 12:57:07,649 | DEBUG | route: auth/login
+2023-05-04 12:57:07,649 | DEBUG | route: auth/login
+2023-05-04 12:57:07,650 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8001/auth/login
+2023-05-04 12:57:07,650 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8001/auth/login
+2023-05-04 17:23:47,302 | DEBUG | route: auth/login
+2023-05-04 17:23:47,302 | DEBUG | route: auth/login
+2023-05-04 17:23:47,302 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 17:23:47,302 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 18:58:46,034 | DEBUG | route: auth/login
+2023-05-04 18:58:46,034 | DEBUG | route: auth/login
+2023-05-04 18:58:46,036 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 18:58:46,036 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 19:32:55,514 | DEBUG | route: auth/login
+2023-05-04 19:32:55,514 | DEBUG | route: auth/login
+2023-05-04 19:32:55,515 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 19:32:55,515 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 19:33:26,535 | DEBUG | route: posts
+2023-05-04 19:33:26,535 | DEBUG | route: posts
+2023-05-04 19:33:26,536 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 19:33:26,536 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 20:16:27,546 | DEBUG | route: 
+2023-05-04 20:16:27,546 | DEBUG | route: 
+2023-05-04 20:16:37,824 | DEBUG | route: auth/login
+2023-05-04 20:16:37,824 | DEBUG | route: auth/login
+2023-05-04 20:16:37,825 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8001/auth/login
+2023-05-04 20:16:37,825 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8001/auth/login
+2023-05-04 20:16:53,098 | DEBUG | route: auth/login
+2023-05-04 20:16:53,098 | DEBUG | route: auth/login
+2023-05-04 20:16:53,099 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 20:16:53,099 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8001/auth/login
+2023-05-04 20:19:23,350 | DEBUG | route: auth/login
+2023-05-04 20:19:23,350 | DEBUG | route: auth/login
+2023-05-04 20:19:23,351 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 20:19:23,351 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 20:36:00,982 | DEBUG | route: 
+2023-05-04 20:36:00,982 | DEBUG | route: 
+2023-05-04 20:39:15,211 | DEBUG | route: auth/login
+2023-05-04 20:39:15,211 | DEBUG | route: auth/login
+2023-05-04 20:39:15,212 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/login
+2023-05-04 20:39:15,212 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/login
+2023-05-04 20:39:15,329 | DEBUG | route: favicon.ico
+2023-05-04 20:39:15,329 | DEBUG | route: favicon.ico
+2023-05-04 20:39:34,828 | DEBUG | route: auth/login
+2023-05-04 20:39:34,828 | DEBUG | route: auth/login
+2023-05-04 20:39:34,828 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/login
+2023-05-04 20:39:34,828 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/login
+2023-05-04 20:45:36,044 | DEBUG | route: auth/login
+2023-05-04 20:45:36,044 | DEBUG | route: auth/login
+2023-05-04 20:45:36,045 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 20:45:36,045 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:15:13,515 | DEBUG | route: auth/login
+2023-05-04 21:15:13,515 | DEBUG | route: auth/login
+2023-05-04 21:15:13,517 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:15:13,517 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:16:22,901 | DEBUG | route: auth/login
+2023-05-04 21:16:22,901 | DEBUG | route: auth/login
+2023-05-04 21:16:22,902 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:16:22,902 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:17:05,331 | DEBUG | route: posts
+2023-05-04 21:17:05,331 | DEBUG | route: posts
+2023-05-04 21:17:05,332 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:17:05,332 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:17:22,220 | DEBUG | route: posts
+2023-05-04 21:17:22,220 | DEBUG | route: posts
+2023-05-04 21:17:22,220 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:17:22,220 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:19:44,032 | DEBUG | route: posts
+2023-05-04 21:19:44,032 | DEBUG | route: posts
+2023-05-04 21:19:44,033 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:19:44,033 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:20:49,516 | DEBUG | route: auth/login
+2023-05-04 21:20:49,516 | DEBUG | route: auth/login
+2023-05-04 21:20:49,517 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:20:49,517 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:33:21,554 | DEBUG | route: auth/logout
+2023-05-04 21:33:21,554 | DEBUG | route: auth/logout
+2023-05-04 21:33:21,555 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/logout
+2023-05-04 21:33:21,555 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/logout
+2023-05-04 21:33:26,228 | DEBUG | route: auth/login
+2023-05-04 21:33:26,228 | DEBUG | route: auth/login
+2023-05-04 21:33:26,228 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:33:26,228 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:33:31,160 | DEBUG | route: auth/login
+2023-05-04 21:33:31,160 | DEBUG | route: auth/login
+2023-05-04 21:33:31,161 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:33:31,161 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-04 21:33:38,861 | DEBUG | route: posts
+2023-05-04 21:33:38,861 | DEBUG | route: posts
+2023-05-04 21:33:38,862 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:33:38,862 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-04 21:35:37,787 | DEBUG | route: posts
+2023-05-04 21:35:37,787 | DEBUG | route: posts
+2023-05-04 21:35:37,789 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 21:35:37,789 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 21:35:50,466 | DEBUG | route: posts
+2023-05-04 21:35:50,466 | DEBUG | route: posts
+2023-05-04 21:35:50,467 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:35:50,467 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:35:56,117 | DEBUG | route: posts
+2023-05-04 21:35:56,117 | DEBUG | route: posts
+2023-05-04 21:35:56,117 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:35:56,117 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:36:33,034 | DEBUG | route: posts
+2023-05-04 21:36:33,034 | DEBUG | route: posts
+2023-05-04 21:36:33,035 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:36:33,035 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:37:49,562 | DEBUG | route: posts
+2023-05-04 21:37:49,562 | DEBUG | route: posts
+2023-05-04 21:37:49,564 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:37:49,564 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:38:30,357 | DEBUG | route: posts
+2023-05-04 21:38:30,357 | DEBUG | route: posts
+2023-05-04 21:38:30,357 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=new
+2023-05-04 21:38:30,357 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=new
+2023-05-04 21:38:41,562 | DEBUG | route: posts
+2023-05-04 21:38:41,562 | DEBUG | route: posts
+2023-05-04 21:38:41,562 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 21:38:41,562 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 21:38:50,855 | DEBUG | route: posts
+2023-05-04 21:38:50,855 | DEBUG | route: posts
+2023-05-04 21:38:50,856 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:38:50,856 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:39:13,428 | DEBUG | route: posts
+2023-05-04 21:39:13,428 | DEBUG | route: posts
+2023-05-04 21:39:13,430 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:39:13,430 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:40:36,320 | DEBUG | route: posts
+2023-05-04 21:40:36,320 | DEBUG | route: posts
+2023-05-04 21:40:36,321 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:40:36,321 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:41:43,754 | DEBUG | route: posts
+2023-05-04 21:41:43,754 | DEBUG | route: posts
+2023-05-04 21:41:43,757 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:41:43,757 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:42:07,876 | DEBUG | route: posts
+2023-05-04 21:42:07,876 | DEBUG | route: posts
+2023-05-04 21:42:07,878 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:42:07,878 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:42:22,138 | DEBUG | route: posts
+2023-05-04 21:42:22,138 | DEBUG | route: posts
+2023-05-04 21:42:22,139 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:42:22,139 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:43:31,776 | DEBUG | route: posts
+2023-05-04 21:43:31,776 | DEBUG | route: posts
+2023-05-04 21:43:31,777 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:43:31,777 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:43:53,896 | DEBUG | route: posts
+2023-05-04 21:43:53,896 | DEBUG | route: posts
+2023-05-04 21:43:53,897 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:43:53,897 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:45:57,783 | DEBUG | route: posts
+2023-05-04 21:45:57,783 | DEBUG | route: posts
+2023-05-04 21:45:57,784 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:45:57,784 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:46:18,592 | DEBUG | route: posts
+2023-05-04 21:46:18,592 | DEBUG | route: posts
+2023-05-04 21:46:18,593 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:46:18,593 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:47:47,862 | DEBUG | route: posts
+2023-05-04 21:47:47,862 | DEBUG | route: posts
+2023-05-04 21:47:47,863 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:47:47,863 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:50:51,374 | DEBUG | route: posts
+2023-05-04 21:50:51,374 | DEBUG | route: posts
+2023-05-04 21:50:51,376 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:50:51,376 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:51:53,015 | DEBUG | route: posts
+2023-05-04 21:51:53,015 | DEBUG | route: posts
+2023-05-04 21:51:53,017 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:51:53,017 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:52:08,980 | DEBUG | route: posts
+2023-05-04 21:52:08,980 | DEBUG | route: posts
+2023-05-04 21:52:08,982 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:52:08,982 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:52:26,409 | DEBUG | route: posts
+2023-05-04 21:52:26,409 | DEBUG | route: posts
+2023-05-04 21:52:26,414 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:52:26,414 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:53:35,772 | DEBUG | route: posts
+2023-05-04 21:53:35,772 | DEBUG | route: posts
+2023-05-04 21:53:35,774 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:53:35,774 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:58:12,199 | DEBUG | route: posts
+2023-05-04 21:58:12,199 | DEBUG | route: posts
+2023-05-04 21:58:12,200 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:58:12,200 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:59:06,647 | DEBUG | route: posts
+2023-05-04 21:59:06,647 | DEBUG | route: posts
+2023-05-04 21:59:06,647 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 21:59:06,647 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:00:49,338 | DEBUG | route: posts
+2023-05-04 22:00:49,338 | DEBUG | route: posts
+2023-05-04 22:00:49,339 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:00:49,339 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:01:54,913 | DEBUG | route: posts
+2023-05-04 22:01:54,913 | DEBUG | route: posts
+2023-05-04 22:01:54,914 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 22:01:54,914 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 22:02:50,242 | DEBUG | route: posts
+2023-05-04 22:02:50,242 | DEBUG | route: posts
+2023-05-04 22:02:50,243 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:02:50,243 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:03:20,560 | DEBUG | route: posts
+2023-05-04 22:03:20,560 | DEBUG | route: posts
+2023-05-04 22:03:20,562 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:03:20,562 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:04:36,380 | DEBUG | route: posts
+2023-05-04 22:04:36,380 | DEBUG | route: posts
+2023-05-04 22:04:36,383 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:04:36,383 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:04:46,196 | DEBUG | route: posts
+2023-05-04 22:04:46,196 | DEBUG | route: posts
+2023-05-04 22:04:46,197 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:04:46,197 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:05:10,254 | DEBUG | route: posts
+2023-05-04 22:05:10,254 | DEBUG | route: posts
+2023-05-04 22:05:10,254 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:05:10,254 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:07:32,478 | DEBUG | route: posts
+2023-05-04 22:07:32,478 | DEBUG | route: posts
+2023-05-04 22:07:32,479 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:07:32,479 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:09:59,917 | DEBUG | route: posts
+2023-05-04 22:09:59,917 | DEBUG | route: posts
+2023-05-04 22:09:59,918 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:09:59,918 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=action
+2023-05-04 22:10:10,234 | DEBUG | route: posts
+2023-05-04 22:10:10,234 | DEBUG | route: posts
+2023-05-04 22:10:10,235 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 22:10:10,235 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-04 22:10:15,401 | DEBUG | route: posts
+2023-05-04 22:10:15,401 | DEBUG | route: posts
+2023-05-04 22:10:15,401 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=new
+2023-05-04 22:10:15,401 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=new
+2023-05-04 22:23:34,091 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:34,133 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 22:23:42,595 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:42,605 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 22:23:47,184 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:47,194 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 22:23:53,221 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:53,227 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-05 19:06:57,915 | DEBUG | route: auth/login
+2023-05-05 19:06:57,915 | DEBUG | route: auth/login
+2023-05-05 19:06:57,916 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 19:06:57,916 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 19:10:56,127 | DEBUG | route: auth/login
+2023-05-05 19:10:56,127 | DEBUG | route: auth/login
+2023-05-05 19:10:56,129 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 19:10:56,129 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 19:20:48,866 | DEBUG | route: auth/login
+2023-05-05 19:20:48,866 | DEBUG | route: auth/login
+2023-05-05 19:20:48,868 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 19:20:48,868 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:18:41,647 | DEBUG | route: auth/login
+2023-05-05 23:18:41,647 | DEBUG | route: auth/login
+2023-05-05 23:18:41,649 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:18:41,649 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:22:40,177 | DEBUG | route: auth/reverify
+2023-05-05 23:22:40,177 | DEBUG | route: auth/reverify
+2023-05-05 23:22:40,178 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/reverify
+2023-05-05 23:22:40,178 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/reverify
+2023-05-05 23:22:53,605 | DEBUG | route: auth/refresh_token
+2023-05-05 23:22:53,605 | DEBUG | route: auth/refresh_token
+2023-05-05 23:22:53,606 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/refresh_token
+2023-05-05 23:22:53,606 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/refresh_token
+2023-05-05 23:24:52,011 | DEBUG | route: auth/create_user
+2023-05-05 23:24:52,011 | DEBUG | route: auth/create_user
+2023-05-05 23:24:52,012 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:52,012 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:53,587 | DEBUG | route: auth/create_user
+2023-05-05 23:24:53,587 | DEBUG | route: auth/create_user
+2023-05-05 23:24:53,588 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:53,588 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:54,623 | DEBUG | route: auth/create_user
+2023-05-05 23:24:54,623 | DEBUG | route: auth/create_user
+2023-05-05 23:24:54,627 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:54,627 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:55,534 | DEBUG | route: auth/create_user
+2023-05-05 23:24:55,534 | DEBUG | route: auth/create_user
+2023-05-05 23:24:55,535 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:55,535 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:56,453 | DEBUG | route: auth/create_user
+2023-05-05 23:24:56,453 | DEBUG | route: auth/create_user
+2023-05-05 23:24:56,453 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:56,453 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:57,500 | DEBUG | route: auth/create_user
+2023-05-05 23:24:57,500 | DEBUG | route: auth/create_user
+2023-05-05 23:24:57,501 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:24:57,501 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:25:09,065 | DEBUG | route: auth/create_user
+2023-05-05 23:25:09,065 | DEBUG | route: auth/create_user
+2023-05-05 23:25:09,066 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:25:09,066 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/create_user
+2023-05-05 23:30:30,549 | DEBUG | route: posts
+2023-05-05 23:30:30,549 | DEBUG | route: posts
+2023-05-05 23:30:30,550 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:30:30,550 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:30:38,911 | DEBUG | route: posts
+2023-05-05 23:30:38,911 | DEBUG | route: posts
+2023-05-05 23:30:38,912 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:30:38,912 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:30:53,680 | DEBUG | route: posts
+2023-05-05 23:30:53,680 | DEBUG | route: posts
+2023-05-05 23:30:53,681 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:30:53,681 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:31:14,466 | DEBUG | route: posts
+2023-05-05 23:31:14,466 | DEBUG | route: posts
+2023-05-05 23:31:14,467 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:31:14,467 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:31:36,961 | DEBUG | route: auth/login
+2023-05-05 23:31:36,961 | DEBUG | route: auth/login
+2023-05-05 23:31:36,962 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:31:36,962 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:31:43,217 | DEBUG | route: posts
+2023-05-05 23:31:43,217 | DEBUG | route: posts
+2023-05-05 23:31:43,218 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:31:43,218 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:32:39,787 | DEBUG | route: 
+2023-05-05 23:32:39,787 | DEBUG | route: 
+2023-05-05 23:32:39,861 | DEBUG | route: favicon.ico
+2023-05-05 23:32:39,861 | DEBUG | route: favicon.ico
+2023-05-05 23:32:41,542 | DEBUG | route: 
+2023-05-05 23:32:41,542 | DEBUG | route: 
+2023-05-05 23:33:13,321 | DEBUG | route: posts
+2023-05-05 23:33:13,321 | DEBUG | route: posts
+2023-05-05 23:33:13,322 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:33:13,322 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:36:36,199 | DEBUG | route: posts
+2023-05-05 23:36:36,199 | DEBUG | route: posts
+2023-05-05 23:36:36,200 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:36:36,200 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:38:38,412 | DEBUG | route: posts
+2023-05-05 23:38:38,412 | DEBUG | route: posts
+2023-05-05 23:38:38,413 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:38,413 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:41,443 | DEBUG | route: posts
+2023-05-05 23:38:41,443 | DEBUG | route: posts
+2023-05-05 23:38:41,444 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:41,444 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:44,554 | DEBUG | route: posts
+2023-05-05 23:38:44,554 | DEBUG | route: posts
+2023-05-05 23:38:44,555 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:44,555 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:47,634 | DEBUG | route: posts
+2023-05-05 23:38:47,634 | DEBUG | route: posts
+2023-05-05 23:38:47,634 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:38:47,634 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:39:06,088 | DEBUG | route: posts
+2023-05-05 23:39:06,088 | DEBUG | route: posts
+2023-05-05 23:39:06,089 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:39:06,089 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:39:31,921 | DEBUG | route: posts
+2023-05-05 23:39:31,921 | DEBUG | route: posts
+2023-05-05 23:39:31,921 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:39:31,921 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:41:49,881 | DEBUG | route: posts
+2023-05-05 23:41:49,881 | DEBUG | route: posts
+2023-05-05 23:41:49,882 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:41:49,882 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:42:03,856 | DEBUG | route: auth/login
+2023-05-05 23:42:03,856 | DEBUG | route: auth/login
+2023-05-05 23:42:03,857 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:42:03,857 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-05 23:42:17,777 | DEBUG | route: auth/get_user/21
+2023-05-05 23:42:17,777 | DEBUG | route: auth/get_user/21
+2023-05-05 23:42:17,778 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/get_user/21
+2023-05-05 23:42:17,778 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/get_user/21
+2023-05-05 23:42:33,684 | DEBUG | route: auth/profile/336790892_3346830845568109_6083365218015350012_n.jpg
+2023-05-05 23:42:33,684 | DEBUG | route: auth/profile/336790892_3346830845568109_6083365218015350012_n.jpg
+2023-05-05 23:42:33,685 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/profile/336790892_3346830845568109_6083365218015350012_n.jpg
+2023-05-05 23:42:33,685 | DEBUG | Dispatching request to auth microservice: GET http://127.0.0.1:8004/auth/profile/336790892_3346830845568109_6083365218015350012_n.jpg
+2023-05-05 23:42:52,880 | DEBUG | route: posts
+2023-05-05 23:42:52,880 | DEBUG | route: posts
+2023-05-05 23:42:52,881 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:42:52,881 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:43:18,615 | DEBUG | route: posts/4
+2023-05-05 23:43:18,615 | DEBUG | route: posts/4
+2023-05-05 23:43:18,616 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts/4
+2023-05-05 23:43:18,616 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts/4
+2023-05-05 23:44:44,963 | DEBUG | route: comments
+2023-05-05 23:44:44,963 | DEBUG | route: comments
+2023-05-05 23:44:44,964 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=24&reply_to=27&limit=5&skip=0
+2023-05-05 23:44:44,964 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=24&reply_to=27&limit=5&skip=0
+2023-05-05 23:44:48,723 | DEBUG | route: comments
+2023-05-05 23:44:48,723 | DEBUG | route: comments
+2023-05-05 23:44:48,723 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=24&reply_to=27&limit=5&skip=0
+2023-05-05 23:44:48,723 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=24&reply_to=27&limit=5&skip=0
+2023-05-05 23:58:57,853 | DEBUG | route: comments
+2023-05-05 23:58:57,853 | DEBUG | route: comments
+2023-05-05 23:58:57,854 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=24&reply_to=27&limit=5&skip=0
+2023-05-05 23:58:57,854 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=24&reply_to=27&limit=5&skip=0
+2023-05-05 23:59:11,053 | DEBUG | route: posts
+2023-05-05 23:59:11,053 | DEBUG | route: posts
+2023-05-05 23:59:11,054 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:59:11,054 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-05 23:59:15,413 | DEBUG | route: posts
+2023-05-05 23:59:15,413 | DEBUG | route: posts
+2023-05-05 23:59:15,415 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-05 23:59:15,415 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-06 06:21:41,386 | DEBUG | route: auth/create_user
+2023-05-06 06:21:41,386 | DEBUG | route: auth/create_user
+2023-05-06 06:21:41,389 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:21:41,389 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:25:44,684 | DEBUG | route: auth/create_user
+2023-05-06 06:25:44,684 | DEBUG | route: auth/create_user
+2023-05-06 06:25:44,686 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:25:44,686 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:50:54,054 | DEBUG | route: auth/create_user
+2023-05-06 06:50:54,054 | DEBUG | route: auth/create_user
+2023-05-06 06:50:54,057 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:50:54,057 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:54:56,848 | DEBUG | route: auth/create_user
+2023-05-06 06:54:56,848 | DEBUG | route: auth/create_user
+2023-05-06 06:54:56,851 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:54:56,851 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 06:55:15,311 | DEBUG | route: auth/verification/
+2023-05-06 06:55:15,311 | DEBUG | route: auth/verification/
+2023-05-06 06:55:15,312 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzU5Njk3fQ.Scrs4GbKAFijXyADHp4h2ESHemDVtrKCUE2zGo24r2A
+2023-05-06 06:55:15,312 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzU5Njk3fQ.Scrs4GbKAFijXyADHp4h2ESHemDVtrKCUE2zGo24r2A
+2023-05-06 06:55:20,040 | DEBUG | route: favicon.ico
+2023-05-06 06:55:20,040 | DEBUG | route: favicon.ico
+2023-05-06 06:55:32,708 | DEBUG | route: auth/login
+2023-05-06 06:55:32,708 | DEBUG | route: auth/login
+2023-05-06 06:55:32,709 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 06:55:32,709 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 06:55:48,613 | DEBUG | route: posts
+2023-05-06 06:55:48,613 | DEBUG | route: posts
+2023-05-06 06:55:48,615 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 06:55:48,615 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 06:56:19,883 | DEBUG | route: posts
+2023-05-06 06:56:19,883 | DEBUG | route: posts
+2023-05-06 06:56:19,884 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 06:56:19,884 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 06:59:47,925 | DEBUG | route: posts
+2023-05-06 06:59:47,925 | DEBUG | route: posts
+2023-05-06 06:59:47,928 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 06:59:47,928 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:03:22,391 | DEBUG | route: posts
+2023-05-06 07:03:22,391 | DEBUG | route: posts
+2023-05-06 07:03:22,394 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:03:22,394 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:04:53,312 | DEBUG | route: posts
+2023-05-06 07:04:53,312 | DEBUG | route: posts
+2023-05-06 07:04:53,314 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:04:53,314 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:12:13,810 | DEBUG | route: posts
+2023-05-06 07:12:13,810 | DEBUG | route: posts
+2023-05-06 07:12:13,814 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:12:13,814 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:14:22,272 | DEBUG | route: posts
+2023-05-06 07:14:22,272 | DEBUG | route: posts
+2023-05-06 07:14:22,275 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:14:22,275 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:18:08,263 | DEBUG | route: comments/7
+2023-05-06 07:18:08,263 | DEBUG | route: comments/7
+2023-05-06 07:18:08,264 | DEBUG | Dispatching request to comments microservice: POST http://0.0.0.0:8003/comments/7
+2023-05-06 07:18:08,264 | DEBUG | Dispatching request to comments microservice: POST http://0.0.0.0:8003/comments/7
+2023-05-06 07:27:29,235 | DEBUG | route: posts
+2023-05-06 07:27:29,235 | DEBUG | route: posts
+2023-05-06 07:27:29,238 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:27:29,238 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:34:22,553 | DEBUG | route: posts
+2023-05-06 07:34:22,553 | DEBUG | route: posts
+2023-05-06 07:34:22,555 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 07:34:22,555 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:04:14,916 | DEBUG | route: posts
+2023-05-06 08:04:14,916 | DEBUG | route: posts
+2023-05-06 08:04:14,917 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:04:14,917 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:04:31,180 | DEBUG | route: auth/login
+2023-05-06 08:04:31,180 | DEBUG | route: auth/login
+2023-05-06 08:04:31,181 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:04:31,181 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:05:18,246 | DEBUG | route: auth/login
+2023-05-06 08:05:18,246 | DEBUG | route: auth/login
+2023-05-06 08:05:18,249 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:05:18,249 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:05:31,837 | DEBUG | route: auth/create_user
+2023-05-06 08:05:31,837 | DEBUG | route: auth/create_user
+2023-05-06 08:05:31,842 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:05:31,842 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:05:44,840 | DEBUG | route: auth/create_user
+2023-05-06 08:05:44,840 | DEBUG | route: auth/create_user
+2023-05-06 08:05:44,843 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:05:44,843 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:06:05,815 | DEBUG | route: auth/verification/
+2023-05-06 08:06:05,815 | DEBUG | route: auth/verification/
+2023-05-06 08:06:05,816 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzYzOTQ1fQ.jtRtK_IE6qv-OpWjEmgfiwQ8RHzDt-n1UHUugBSDAbw
+2023-05-06 08:06:05,816 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzYzOTQ1fQ.jtRtK_IE6qv-OpWjEmgfiwQ8RHzDt-n1UHUugBSDAbw
+2023-05-06 08:06:24,987 | DEBUG | route: auth/login
+2023-05-06 08:06:24,987 | DEBUG | route: auth/login
+2023-05-06 08:06:24,989 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:06:24,989 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:06:31,982 | DEBUG | route: posts
+2023-05-06 08:06:31,982 | DEBUG | route: posts
+2023-05-06 08:06:31,987 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:06:31,987 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:08:05,094 | DEBUG | route: posts
+2023-05-06 08:08:05,094 | DEBUG | route: posts
+2023-05-06 08:08:05,097 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:08:05,097 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:08:11,584 | DEBUG | route: posts
+2023-05-06 08:08:11,584 | DEBUG | route: posts
+2023-05-06 08:08:11,586 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:08:11,586 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:15:47,228 | DEBUG | route: posts
+2023-05-06 08:15:47,228 | DEBUG | route: posts
+2023-05-06 08:15:47,232 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:15:47,232 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:16:54,091 | DEBUG | route: auth/create_user
+2023-05-06 08:16:54,091 | DEBUG | route: auth/create_user
+2023-05-06 08:16:54,093 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:16:54,093 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:17:14,642 | DEBUG | route: auth/verification/
+2023-05-06 08:17:14,642 | DEBUG | route: auth/verification/
+2023-05-06 08:17:14,644 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY0NjE0fQ.DylalBQ79vVES02bhUKKdmR2p0WflwzASPyCnnHblzY
+2023-05-06 08:17:14,644 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY0NjE0fQ.DylalBQ79vVES02bhUKKdmR2p0WflwzASPyCnnHblzY
+2023-05-06 08:17:33,945 | DEBUG | route: auth/login
+2023-05-06 08:17:33,945 | DEBUG | route: auth/login
+2023-05-06 08:17:33,947 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:17:33,947 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:17:38,018 | DEBUG | route: posts
+2023-05-06 08:17:38,018 | DEBUG | route: posts
+2023-05-06 08:17:38,020 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:17:38,020 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:22:11,782 | DEBUG | route: auth/create_user
+2023-05-06 08:22:11,782 | DEBUG | route: auth/create_user
+2023-05-06 08:22:11,784 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:22:11,784 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:22:28,118 | DEBUG | route: auth/verification/
+2023-05-06 08:22:28,118 | DEBUG | route: auth/verification/
+2023-05-06 08:22:28,119 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY0OTMyfQ.NXire9iFJtVe-eW4SixQbVpN4opNYqNzIMBZfgHeZoc
+2023-05-06 08:22:28,119 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY0OTMyfQ.NXire9iFJtVe-eW4SixQbVpN4opNYqNzIMBZfgHeZoc
+2023-05-06 08:33:52,395 | DEBUG | route: auth/create_user
+2023-05-06 08:33:52,395 | DEBUG | route: auth/create_user
+2023-05-06 08:33:52,401 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:33:52,401 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:34:04,213 | DEBUG | route: auth/verification/
+2023-05-06 08:34:04,213 | DEBUG | route: auth/verification/
+2023-05-06 08:34:04,214 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0LCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY1NjMyfQ.yeBDpHlyadrYD51F5AWM5jSl1qG4wZzI6qdzl9I8gAk
+2023-05-06 08:34:04,214 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo0LCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY1NjMyfQ.yeBDpHlyadrYD51F5AWM5jSl1qG4wZzI6qdzl9I8gAk
+2023-05-06 08:45:35,328 | DEBUG | route: auth/create_user
+2023-05-06 08:45:35,328 | DEBUG | route: auth/create_user
+2023-05-06 08:45:35,330 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:45:35,330 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/create_user
+2023-05-06 08:45:49,727 | DEBUG | route: auth/verification/
+2023-05-06 08:45:49,727 | DEBUG | route: auth/verification/
+2023-05-06 08:45:49,728 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY2MzM1fQ.fk-fkwOTrT8ZE4d0MrIG7YeFb3c3uoKaAy8TLGOXiDM
+2023-05-06 08:45:49,728 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/verification/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1LCJ1c2VyX25hbWUiOiJyZXpheWVrIiwiZXhwIjoxNjgzMzY2MzM1fQ.fk-fkwOTrT8ZE4d0MrIG7YeFb3c3uoKaAy8TLGOXiDM
+2023-05-06 08:47:15,552 | DEBUG | route: auth/login
+2023-05-06 08:47:15,552 | DEBUG | route: auth/login
+2023-05-06 08:47:15,553 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:47:15,553 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/login
+2023-05-06 08:47:31,374 | DEBUG | route: posts
+2023-05-06 08:47:31,374 | DEBUG | route: posts
+2023-05-06 08:47:31,376 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts?limit=2&skip=0&search=
+2023-05-06 08:47:31,376 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts?limit=2&skip=0&search=
+2023-05-06 08:47:39,640 | DEBUG | route: posts
+2023-05-06 08:47:39,640 | DEBUG | route: posts
+2023-05-06 08:47:39,642 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:47:39,642 | DEBUG | Dispatching request to posts microservice: POST http://0.0.0.0:8002/posts
+2023-05-06 08:47:43,874 | DEBUG | route: posts
+2023-05-06 08:47:43,874 | DEBUG | route: posts
+2023-05-06 08:47:43,875 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts?limit=2&skip=0&search=
+2023-05-06 08:47:43,875 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts?limit=2&skip=0&search=
+2023-05-06 08:48:20,777 | DEBUG | route: comments/6
+2023-05-06 08:48:20,777 | DEBUG | route: comments/6
+2023-05-06 08:48:20,778 | DEBUG | Dispatching request to comments microservice: POST http://0.0.0.0:8003/comments/6
+2023-05-06 08:48:20,778 | DEBUG | Dispatching request to comments microservice: POST http://0.0.0.0:8003/comments/6
+2023-05-06 08:49:29,308 | DEBUG | route: comments
+2023-05-06 08:49:29,308 | DEBUG | route: comments
+2023-05-06 08:49:29,309 | DEBUG | Dispatching request to comments microservice: GET http://0.0.0.0:8003/comments?id=6&reply_to=1&limit=5&skip=0
+2023-05-06 08:49:29,309 | DEBUG | Dispatching request to comments microservice: GET http://0.0.0.0:8003/comments?id=6&reply_to=1&limit=5&skip=0
+2023-05-06 08:49:29,341 | DEBUG | route: comments/
+2023-05-06 08:49:29,341 | DEBUG | route: comments/
+2023-05-06 08:49:29,342 | DEBUG | Dispatching request to comments microservice: GET http://0.0.0.0:8003/comments/?id=6&reply_to=1&limit=5&skip=0
+2023-05-06 08:49:29,342 | DEBUG | Dispatching request to comments microservice: GET http://0.0.0.0:8003/comments/?id=6&reply_to=1&limit=5&skip=0
+2023-05-06 08:49:57,629 | DEBUG | route: comments/react
+2023-05-06 08:49:57,629 | DEBUG | route: comments/react
+2023-05-06 08:49:57,631 | DEBUG | Dispatching request to comments microservice: POST http://0.0.0.0:8003/comments/react
+2023-05-06 08:49:57,631 | DEBUG | Dispatching request to comments microservice: POST http://0.0.0.0:8003/comments/react
+2023-05-06 08:50:15,392 | DEBUG | route: comments/6
+2023-05-06 08:50:15,392 | DEBUG | route: comments/6
+2023-05-06 08:50:15,394 | DEBUG | Dispatching request to comments microservice: PUT http://0.0.0.0:8003/comments/6
+2023-05-06 08:50:15,394 | DEBUG | Dispatching request to comments microservice: PUT http://0.0.0.0:8003/comments/6
+2023-05-06 09:26:31,798 | DEBUG | route: auth/refresh_token
+2023-05-06 09:26:31,798 | DEBUG | route: auth/refresh_token
+2023-05-06 09:26:31,802 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/refresh_token
+2023-05-06 09:26:31,802 | DEBUG | Dispatching request to auth microservice: POST http://0.0.0.0:8004/auth/refresh_token
+2023-05-07 22:23:04,644 | DEBUG | route: auth/docs
+2023-05-07 22:23:04,644 | DEBUG | route: auth/docs
+2023-05-07 22:23:04,646 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/docs
+2023-05-07 22:23:04,646 | DEBUG | Dispatching request to auth microservice: GET http://0.0.0.0:8004/auth/docs
+2023-05-07 22:23:04,957 | DEBUG | route: favicon.ico
+2023-05-07 22:23:04,957 | DEBUG | route: favicon.ico
+2023-05-07 22:23:44,172 | DEBUG | route: posts/docs
+2023-05-07 22:23:44,172 | DEBUG | route: posts/docs
+2023-05-07 22:23:44,174 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts/docs
+2023-05-07 22:23:44,174 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts/docs
+2023-05-07 22:23:46,285 | DEBUG | route: posts/docs
+2023-05-07 22:23:46,285 | DEBUG | route: posts/docs
+2023-05-07 22:23:46,285 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts/docs
+2023-05-07 22:23:46,285 | DEBUG | Dispatching request to posts microservice: GET http://0.0.0.0:8002/posts/docs
+2023-05-14 22:29:49,240 | DEBUG | route: auth/login
+2023-05-14 22:29:49,240 | DEBUG | route: auth/login
+2023-05-14 22:29:49,241 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-14 22:29:49,241 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-14 22:30:02,158 | DEBUG | route: posts
+2023-05-14 22:30:02,158 | DEBUG | route: posts
+2023-05-14 22:30:02,158 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-14 22:30:02,158 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-14 22:31:15,557 | DEBUG | route: posts
+2023-05-14 22:31:15,557 | DEBUG | route: posts
+2023-05-14 22:31:15,559 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-14 22:31:15,559 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts?limit=2&skip=0&search=
+2023-05-14 22:31:22,307 | DEBUG | route: posts/61
+2023-05-14 22:31:22,307 | DEBUG | route: posts/61
+2023-05-14 22:31:22,308 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts/61
+2023-05-14 22:31:22,308 | DEBUG | Dispatching request to posts microservice: GET http://127.0.0.1:8002/posts/61
+2023-05-14 22:31:42,517 | DEBUG | route: comments/61
+2023-05-14 22:31:42,517 | DEBUG | route: comments/61
+2023-05-14 22:31:42,518 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/61
+2023-05-14 22:31:42,518 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/61
+2023-05-14 22:31:59,315 | DEBUG | route: comments/61
+2023-05-14 22:31:59,315 | DEBUG | route: comments/61
+2023-05-14 22:31:59,315 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/61
+2023-05-14 22:31:59,315 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/61
+2023-05-14 22:32:19,930 | DEBUG | route: comments/react
+2023-05-14 22:32:19,930 | DEBUG | route: comments/react
+2023-05-14 22:32:19,931 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-14 22:32:19,931 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-14 22:42:33,779 | DEBUG | route: auth/refresh_token
+2023-05-14 22:42:33,779 | DEBUG | route: auth/refresh_token
+2023-05-14 22:42:33,779 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/refresh_token
+2023-05-14 22:42:33,779 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/refresh_token
+2023-05-14 22:43:17,548 | DEBUG | route: auth/logout
+2023-05-14 22:43:17,548 | DEBUG | route: auth/logout
+2023-05-14 22:43:17,548 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/logout
+2023-05-14 22:43:17,548 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/logout
+2023-05-14 22:43:34,630 | DEBUG | route: auth/reverify
+2023-05-14 22:43:34,630 | DEBUG | route: auth/reverify
+2023-05-14 22:43:34,631 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/reverify
+2023-05-14 22:43:34,631 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/reverify
+2023-05-15 11:06:58,422 | DEBUG | route: auth/login
+2023-05-15 11:06:58,422 | DEBUG | route: auth/login
+2023-05-15 11:06:58,424 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 11:06:58,424 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 11:07:39,724 | DEBUG | route: posts
+2023-05-15 11:07:39,724 | DEBUG | route: posts
+2023-05-15 11:07:39,725 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-15 11:07:39,725 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-15 11:09:28,183 | DEBUG | route: posts
+2023-05-15 11:09:28,183 | DEBUG | route: posts
+2023-05-15 11:09:28,184 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-15 11:09:28,184 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-15 11:10:11,212 | DEBUG | route: comments/62
+2023-05-15 11:10:11,212 | DEBUG | route: comments/62
+2023-05-15 11:10:11,213 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/62
+2023-05-15 11:10:11,213 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/62
+2023-05-15 11:37:20,673 | DEBUG | route: auth/login
+2023-05-15 11:37:20,673 | DEBUG | route: auth/login
+2023-05-15 11:37:20,674 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 11:37:20,674 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 19:16:45,472 | DEBUG | route: auth/login
+2023-05-15 19:16:45,472 | DEBUG | route: auth/login
+2023-05-15 19:16:45,474 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 19:16:45,474 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 19:17:00,851 | DEBUG | route: posts
+2023-05-15 19:17:00,851 | DEBUG | route: posts
+2023-05-15 19:17:00,852 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-15 19:17:00,852 | DEBUG | Dispatching request to posts microservice: POST http://127.0.0.1:8002/posts
+2023-05-15 19:17:20,778 | DEBUG | route: comments/64
+2023-05-15 19:17:20,778 | DEBUG | route: comments/64
+2023-05-15 19:17:20,779 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/64
+2023-05-15 19:17:20,779 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/64
+2023-05-15 19:17:50,717 | DEBUG | route: comments
+2023-05-15 19:17:50,717 | DEBUG | route: comments
+2023-05-15 19:17:50,718 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=1&limit=5&skip=0
+2023-05-15 19:17:50,718 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=1&limit=5&skip=0
+2023-05-15 19:18:06,284 | DEBUG | route: comments
+2023-05-15 19:18:06,284 | DEBUG | route: comments
+2023-05-15 19:18:06,285 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=1&limit=5&skip=0
+2023-05-15 19:18:06,285 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=1&limit=5&skip=0
+2023-05-15 19:18:23,399 | DEBUG | route: comments
+2023-05-15 19:18:23,399 | DEBUG | route: comments
+2023-05-15 19:18:23,400 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=1&reply_to=1&limit=5&skip=0
+2023-05-15 19:18:23,400 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=1&reply_to=1&limit=5&skip=0
+2023-05-15 19:18:56,103 | DEBUG | route: comments
+2023-05-15 19:18:56,103 | DEBUG | route: comments
+2023-05-15 19:18:56,104 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=-1&reply_to=1&limit=5&skip=0
+2023-05-15 19:18:56,104 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=-1&reply_to=1&limit=5&skip=0
+2023-05-15 19:19:12,186 | DEBUG | route: comments
+2023-05-15 19:19:12,186 | DEBUG | route: comments
+2023-05-15 19:19:12,189 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=1&reply_to=-1&limit=5&skip=0
+2023-05-15 19:19:12,189 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=1&reply_to=-1&limit=5&skip=0
+2023-05-15 19:19:21,533 | DEBUG | route: comments
+2023-05-15 19:19:21,533 | DEBUG | route: comments
+2023-05-15 19:19:21,534 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=-1&limit=5&skip=0
+2023-05-15 19:19:21,534 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=-1&limit=5&skip=0
+2023-05-15 19:19:25,871 | DEBUG | route: comments
+2023-05-15 19:19:25,871 | DEBUG | route: comments
+2023-05-15 19:19:25,872 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=-1&limit=5&skip=0
+2023-05-15 19:19:25,872 | DEBUG | Dispatching request to comments microservice: GET http://127.0.0.1:8003/comments?id=64&reply_to=-1&limit=5&skip=0
+2023-05-15 19:19:46,112 | DEBUG | route: comments/react
+2023-05-15 19:19:46,112 | DEBUG | route: comments/react
+2023-05-15 19:19:46,113 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-15 19:19:46,113 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-15 19:19:49,412 | DEBUG | route: comments/react
+2023-05-15 19:19:49,412 | DEBUG | route: comments/react
+2023-05-15 19:19:49,413 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-15 19:19:49,413 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-15 19:19:58,830 | DEBUG | route: comments/react
+2023-05-15 19:19:58,830 | DEBUG | route: comments/react
+2023-05-15 19:19:58,830 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-15 19:19:58,830 | DEBUG | Dispatching request to comments microservice: POST http://127.0.0.1:8003/comments/react
+2023-05-15 20:19:01,591 | DEBUG | route: auth/login
+2023-05-15 20:19:01,591 | DEBUG | route: auth/login
+2023-05-15 20:19:01,591 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login
+2023-05-15 20:19:01,591 | DEBUG | Dispatching request to auth microservice: POST http://127.0.0.1:8004/auth/login

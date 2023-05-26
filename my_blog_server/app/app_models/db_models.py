@@ -38,4 +38,4 @@ class Post(Base):
     tags = Column(ARRAY(String), nullable=True, default="none") 
     
     
-    owner = relationship("User")
+    owner = relationship("User", lazy='subquery')

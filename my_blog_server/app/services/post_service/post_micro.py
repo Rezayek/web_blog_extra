@@ -37,7 +37,7 @@ posts_service.add_middleware(
 
 
 @posts_service.get("/posts", response_model = List[post_schemas.PostResponse])
-def get_posts(db: Session = Depends(get_db), current_user: User =  Depends(oauth2.get_current_user), limit:int = 10, skip:int = 0, search:Optional[str] = ""):
+def get_posts(db: Session = Depends(get_db), current_user: User =  Depends(oauth2.get_current_user), limit:int = 10, skip:int = 0, search:Optional[str] = "", timeout: int = 45):
     return post_db_service.get_all_posts_db(db = db, limit= limit, skip= skip, search= search )
 
 

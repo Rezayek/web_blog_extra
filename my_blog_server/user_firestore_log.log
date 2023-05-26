@@ -451,3 +451,51 @@
 2023-04-25 21:01:45,856 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
 2023-04-25 21:01:48,278 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
 2023-04-25 21:01:48,285 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 19:33:28,826 | DEBUG | Adding post with id: 58 to post collection in firebase with document id: 58
+2023-05-04 19:33:28,973 | DEBUG | sending new post to vote and recomendation micro-services with id: 58
+2023-05-04 21:19:45,832 | DEBUG | Adding post with id: 59 to post collection in firebase with document id: 59
+2023-05-04 21:19:45,892 | DEBUG | sending new post to vote and recomendation micro-services with id: 59
+2023-05-04 21:33:40,497 | DEBUG | Adding post with id: 60 to post collection in firebase with document id: 60
+2023-05-04 21:33:40,512 | DEBUG | sending new post to vote and recomendation micro-services with id: 60
+2023-05-04 22:23:34,091 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:34,133 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 22:23:42,595 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:42,605 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 22:23:47,184 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:47,194 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-04 22:23:53,221 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-04 22:23:53,227 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-06 06:55:19,327 | DEBUG | Adding user with id: 1 to user collection in firebase with document id: 1
+2023-05-06 06:55:19,397 | DEBUG | /*sending new user to group and vote micro-services with id: 1
+2023-05-06 06:55:19,470 | DEBUG | /*/*sending new user to post micro-services with id: 1
+2023-05-06 06:55:50,231 | DEBUG | Adding post with id: 1 to post collection in firebase with document id: 1
+2023-05-06 06:55:50,259 | DEBUG | sending new post to vote and recomendation micro-services with id: 1
+2023-05-06 07:14:24,155 | DEBUG | Adding post with id: 7 to post collection in firebase with document id: 7
+2023-05-06 07:14:24,200 | DEBUG | sending new post to vote and recomendation micro-services with id: 7
+2023-05-06 08:06:11,555 | DEBUG | Adding user with id: 1 to user collection in firebase with document id: 1
+2023-05-06 08:06:11,597 | DEBUG | /*sending new user to group and vote micro-services with id: 1
+2023-05-06 08:06:11,629 | DEBUG | /*/*sending new user to post micro-services with id: 1
+2023-05-06 08:08:13,224 | DEBUG | Adding post with id: 3 to post collection in firebase with document id: 3
+2023-05-06 08:08:13,252 | DEBUG | sending new post to vote and recomendation micro-services with id: 3
+2023-05-06 08:17:21,251 | DEBUG | Adding user with id: 2 to user collection in firebase with document id: 2
+2023-05-06 08:17:21,282 | DEBUG | /*sending new user to group and vote micro-services with id: 2
+2023-05-06 08:17:21,311 | DEBUG | /*/*sending new user to post micro-services with id: 2
+2023-05-06 08:22:32,033 | DEBUG | Adding user with id: 3 to user collection in firebase with document id: 3
+2023-05-06 08:22:32,075 | DEBUG | /*sending new user to group and vote micro-services with id: 3
+2023-05-06 08:22:32,105 | DEBUG | /*/*sending new user to post micro-services with id: 3
+2023-05-06 08:34:08,958 | DEBUG | Adding user with id: 4 to user collection in firebase with document id: 4
+2023-05-06 08:34:08,992 | DEBUG | /*sending new user to group and vote micro-services with id: 4
+2023-05-06 08:34:09,025 | DEBUG | /*/*sending new user to post micro-services with id: 4
+2023-05-06 08:45:55,354 | DEBUG | Adding user with id: 5 to user collection in firebase with document id: 5
+2023-05-06 08:45:55,392 | DEBUG | /*sending new user to group and vote micro-services with id: 5
+2023-05-06 08:45:55,429 | DEBUG | /*/*sending new user to post micro-services with id: 5
+2023-05-06 08:47:41,291 | DEBUG | Adding post with id: 6 to post collection in firebase with document id: 6
+2023-05-06 08:47:41,318 | DEBUG | sending new post to vote and recomendation micro-services with id: 6
+2023-05-14 22:30:09,552 | DEBUG | Adding post with id: 61 to post collection in firebase with document id: 61
+2023-05-14 22:30:09,574 | DEBUG | sending new post to vote and recomendation micro-services with id: 61
+2023-05-15 11:07:42,532 | DEBUG | Adding post with id: 62 to post collection in firebase with document id: 62
+2023-05-15 11:07:42,550 | DEBUG | sending new post to vote and recomendation micro-services with id: 62
+2023-05-15 11:09:29,844 | DEBUG | Adding post with id: 63 to post collection in firebase with document id: 63
+2023-05-15 11:09:29,858 | DEBUG | sending new post to vote and recomendation micro-services with id: 63
+2023-05-15 19:17:02,831 | DEBUG | Adding post with id: 64 to post collection in firebase with document id: 64
+2023-05-15 19:17:02,849 | DEBUG | sending new post to vote and recomendation micro-services with id: 64

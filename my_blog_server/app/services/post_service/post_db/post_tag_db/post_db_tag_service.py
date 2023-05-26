@@ -59,11 +59,13 @@ class PostDbTagServices(PostDbTag):
     
     def get_all_posts_db(self, tag: str, limit:int, skip:int = 0):
         
+        results = list()
         with DBConnector(tag = tag) as db:
             
             results = db.query(Post).group_by(Post.id).filter(cast(Post.tags, String).like(f"%{tag}%")).limit(limit).offset(skip).all()
         
-            return results
+        
+        return results
     
     def create_post_db(self, tags: str, new_post: Post):
         

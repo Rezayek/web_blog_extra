@@ -18,12 +18,14 @@ class PostDbServices(PostDb):
         pass
     
     def get_all_posts_db(self, db: Session, limit:int, skip:int = 0, search:Optional[str] = ""):
+        
         # results = db.query(Post).group_by(Post.id).filter(or_(Post.title.contains(search), cast(Post.tags, String).like(f"%{search}%"))).limit(limit).offset(skip).all()
-        results = db.query(Post).group_by(Post.id).filter(Post.title.contains(search), cast(Post.tags, String).like(f"%{search}%")).limit(limit).offset(skip).all()
+        results = list()
         if search != "":
             tag_search = self.post_db_tag_provider.get_all_posts_db(tag = search, limit= limit, skip = skip)
-            results.append(tag_search)
-        
+            results.extend(tag_search)
+        else: 
+            results = db.query(Post).group_by(Post.id).filter(Post.title.contains(search), cast(Post.tags, String).like(f"%{search}%")).limit(limit).offset(skip).all()
         
         return results
     
